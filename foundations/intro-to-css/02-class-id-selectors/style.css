@@ -1,11 +1,14 @@
 .class {
     background-color: #ffbbbb;
     font-family: 'Verdana', 'DeJavu Sans', 'sans-serif';
-    font-size: 24px;
-    font-weight: bold;
 }
 
 #two {
     color: #00f;
     font-size: 36px;
+}
+
+.class.cooler {
+    font-size: 24px;
+    font-weight: bold;
 }
