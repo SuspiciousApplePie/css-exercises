@@ -71,7 +71,6 @@ button.cancel {
 
 .modal {
   display: flex;
-  justify-content: space-evenly;
   padding: 1em;
   gap: 1em;
 }
@@ -80,20 +79,15 @@ button.cancel {
   flex-shrink: 0;
 }
 
-.card {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1em;
-}
-
 .header {
-  font-weight: 1000;
-  font-size: 1.4em;
-}
-
-.modal-head {
   display: flex;
   justify-content: space-between;
-  flex: 1;
+  font-weight: 1000;
+  font-size: 1.4em;
+  align-items: center;
+}
+
+.text {
+  margin-bottom: 8px;
 }
 
